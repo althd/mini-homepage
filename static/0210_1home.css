@@ -1,0 +1,33 @@
+.row4_column2{
+    display : flex;
+    flex : 10;
+    flex-direction : column;
+    border-radius : 9px;
+    padding : 1em;
+}
+    .column7_row4{
+        flex : 1;
+        border-top : 2px solid gray;
+        display : flex;
+        flex-direction : row;
+        font-size : 0.7em;
+        
+    }
+        .row5_column7{
+            flex : 1;
+            
+        }
+        .row6_column7{
+            flex : 0.5;
+        }
+        .row7_column7{
+            flex : 0.5;
+        }
+
+
+    .column8_row4{
+        flex : 3;
+        border-top : 2px solid gray;
+        background-image : url("../images_코뮤/수달.gif");
+
+    }

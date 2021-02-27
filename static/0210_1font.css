@@ -1,0 +1,23 @@
+#redFont{
+    color : red;
+}
+#blueFont{
+    color : blue;
+    font-weight : bold;
+}
+#redPrint{
+    border : 1px solid red;
+    border-radius : 3px;
+    background : red;
+    color : white;
+    font-weight : bold;
+
+}
+#bluePrint{
+    border : 1px solid blue;
+    border-radius : 3px;
+    background : blue;
+    color : white;
+    font-weight : bold;
+}
+

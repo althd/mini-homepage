@@ -1,0 +1,94 @@
+.row4_column2{
+    
+    display : flex;
+    flex : 10;
+    flex-direction : column;
+    border-radius : 9px;
+    padding : 1em;
+}
+    .column7_row4{
+        flex : 1;
+        border : 2px solid #dddddd;
+        display : flex;
+        flex-direction : row;
+        font-size : 1em;
+        font-weight : bolder;
+
+    }
+
+        .row5_column7{
+            flex : 0.1;
+        }
+        .row6_column7{
+            flex : 1;
+            flex-wrap : wrap;
+
+        }
+            .row6_column7 p{
+                display :inline-block;
+            }
+            /*
+        .row7_column7{
+            flex : 0.5;
+        }
+
+*/
+    .column8_row4{
+        display : flex;
+        flex-direction : column;
+        flex-wrap : nowrap;
+        overflow : auto;
+        
+        position : absolute;
+        top : 11em;
+        height : 22.2em;
+        width : 30.5em;
+
+        flex : 9;
+        padding : 1em;
+    }
+        .column8_row4 a{ /*날짜*/
+            color : rgb(232,133,85);
+            font-weight : bolder;
+            font-size : 1.2em;
+            padding : 0.5em;
+            
+        }
+        .column8_row4 p{  /*일기 내용*/
+            font-size : 0.9em;
+        }
+        .diaryBox{
+            border : 2px solid #dddddd;
+            
+        }
+        .column8_row4 button{
+            padding : 10px;
+            padding-left : 15px;
+            padding-right : 15px;
+            font-weight : bolder;
+            background-color : rgb(239, 244, 245);
+            color : rgb(239, 244, 245);
+            border : rgb(239, 244, 245);
+            border-radius : 5px;       
+        }
+        .column8_row4 button:hover{
+            background-color : rgb(93, 185, 156);
+            color : white;
+        }
+
+#secret_box {
+    display : none;
+}
+
+    
+
+/*----------태그---------------------------------*/
+#blueFont{
+    color : blue;
+}
+#redFont{
+    color : red;
+}
+#text{
+    color : brown;
+}

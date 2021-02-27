@@ -1,0 +1,201 @@
+body {
+    background-color: #a3a3a3;
+    /** body에 배경이미지 적용 */
+    background-image: url("../images_코뮤/패턴_1.png");
+    /** 고정된 사이즈로 설정 */
+    background-size: 100px;
+  
+    /** 기본 body 사이즈를 화면 크기로 고정 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+  
+.bookcover {
+    /** 배경 색깔 지정  */
+    background-color: #b4d1da;
+    /** 모서리 둥글게 */
+    border-radius: 9px;
+    /** 윤곽선 */
+    border: 1px solid #738186;
+  
+    /** 기본 너비, 높이 지정 (반응형 X) */
+    width: 960px;
+    height: 660px;
+  
+    /** 좌우 마진을 auto(중앙에 배치), 상하 마진을 100px로 지정 */
+    margin: 100px auto;
+  
+    /** .bookdot 요소에서 absolute 속성값을 이용하기 위해 position: relative 로 설정 */
+    position: relative;
+}
+
+.bookdot {  /** 점선 */
+    border : 2px dashed rgb(241, 246, 247);
+    border-radius : 9px; 
+
+    position : absolute;
+    top : 15px;
+    left : 15px;
+    right : 15px;
+    bottom : 15px;
+}
+
+.page { /** 안 페이지 */
+    border-radius : 9px;
+    background-color : #dddddd;
+    /*margin : 100px auto;*/
+    position : absolute;
+    top : 15px;
+    left : 15px;
+    right : 15px;
+    bottom : 15px;
+    padding : 10px;
+    display : flex;
+}
+
+/*
+.container{
+    position : absolute;
+    top : 20px;
+    left : 20px;
+    right : 20px;
+    bottom : 20px;
+    display : flex;
+}
+*/
+
+/*------------------------------------*/
+    .column1{
+        display : flex;
+        flex : 3.5;
+        flex-direction : column;
+        padding : 5px;
+    }
+        .row1_column1{
+            flex : 1;
+            align-self: center;
+        }
+        .row2_column1{
+            display : flex;
+            border-radius : 9px;
+            flex : 10;
+            padding : 1em;
+            flex-direction : row;
+            font-size : 0.9em;
+        }
+            .column6_row2{
+                /*border : 2px solid red;*/
+                padding : 5px;
+                
+            }
+                .profile-dropdown {
+                    flex: 0;
+                    border: 1px solid #c9d4da;
+                    padding: 5px;
+                    margin-top: 10px;
+                    font-size: 0.8rem;
+                    position: relative;
+                }
+                
+                .triangle-down {
+                    width: 0;
+                    height: 0;
+                    border-left: 4.5px solid transparent;
+                    border-right: 4.5px solid transparent;
+                    border-top: 5px solid #838383;
+                }
+                
+                .dropdown-btn {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                }
+                
+                .profile-dropdown:hover > .dropdown-content {
+                    display: block;
+                }
+                
+                .dropdown-content > a {
+                    display: block;
+                    background-color: #f9f9f9;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    width: 100%;
+                    padding: 6px;
+                    color: black;
+                    text-decoration: none;
+                }
+                
+                .dropdown-content > a:hover {
+                    background-color: #f1f1f1;
+                }
+
+/*------------------------------------*/
+    .column2{
+        display : flex;
+        flex : 9;
+        flex-direction : column;
+        padding-top : 5px;
+        padding-bottom : 5px;
+        padding-left : 5px;
+    }
+        .row3_column2{
+            flex : 1;
+            display : flex;
+            flex-direction : row;
+        }
+            .column4_row3{
+                flex : 1;
+        
+            }
+            .column5_row3{
+                flex : 1;
+            }
+            
+
+    
+
+/*------------------------------------*/
+    .column3{
+        flex : 1.2;
+        background-color : #dddddd;
+        
+        padding-right : 5px;
+        padding-top : 5px;
+        padding-bottom : 5px;
+        }
+        .column3 a{
+            border : 1px solid rgb(48, 101, 126);
+            border-top-right-radius : 5px;
+            font-size : 0.5em;
+            border-bottom-right-radius : 5px;
+            font-weight :bolder;
+            color : rgb(241, 246, 247);
+            background-color : rgb(59, 135, 171);
+            padding : 5px;
+            margin : 6px 0;
+        }
+
+/*------------------------------------*/
+.box {
+    border : 1px solid rgb(196, 199, 202);
+    background-color :rgb(239, 244, 245);
+}
+
+.bottomFont{
+    align-items : flex-end;
+}
+
+.icon{
+    color :rgb(48, 101, 126);
+}
